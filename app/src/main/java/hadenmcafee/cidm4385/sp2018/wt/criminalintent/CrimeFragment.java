@@ -1,10 +1,11 @@
 package hadenmcafee.cidm4385.sp2018.wt.criminalintent;
 
-
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+//import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
