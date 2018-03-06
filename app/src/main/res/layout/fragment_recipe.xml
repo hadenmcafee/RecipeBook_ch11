@@ -17,7 +17,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/recipe_title_hint"/>
 
+
     <TextView
+        android:id="@+id/ingredient"
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

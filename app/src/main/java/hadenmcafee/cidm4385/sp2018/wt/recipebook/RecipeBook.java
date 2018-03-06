@@ -21,9 +21,10 @@ public class RecipeBook {
 
     private RecipeBook(Context context) {
         mRecipes = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        String [] Recipe = {"Lasagna", "Chicken Pot Pie", "Pot Roast", "Yellow Cake", "Peach Cobbler"};
+        for (int i = 0; i < Recipe.length; i++) {
             Recipe recipe = new Recipe();
-            recipe.setTitle("Recipe #" + i);
+            recipe.setTitle(Recipe[i] + " Recipe");
             recipe.setSolved(i % 2 == 0);
             mRecipes.add(recipe);
         }
