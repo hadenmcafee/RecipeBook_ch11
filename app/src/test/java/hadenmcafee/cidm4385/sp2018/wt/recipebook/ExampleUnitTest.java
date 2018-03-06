@@ -1,4 +1,4 @@
-package hadenmcafee.cidm4385.sp2018.wt.criminalintent;
+package hadenmcafee.cidm4385.sp2018.wt.recipebook;
 
 import org.junit.Test;
 
