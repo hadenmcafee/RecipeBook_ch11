@@ -107,13 +107,6 @@ public class RecipeFragment extends Fragment {
             }
         });
 
-
-
-
-        mDateButton = (Button) v.findViewById(R.id.recipe_date);
-        mDateButton.setText(mRecipe.getDate().toString());
-        mDateButton.setEnabled(false);
-
         mSolvedCheckbox = (CheckBox) v.findViewById(R.id.recipe_completed);
         mSolvedCheckbox.setChecked(mRecipe.isSolved());
         mSolvedCheckbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
