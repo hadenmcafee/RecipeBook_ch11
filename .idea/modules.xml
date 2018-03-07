@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RecipeBook.iml" filepath="$PROJECT_DIR$/RecipeBook.iml" />
       <module fileurl="file://C:\Users\Ian Bilek\Desktop\android project chapter 9\RecipeBook_ch11\RecipeBook.iml" filepath="C:\Users\Ian Bilek\Desktop\android project chapter 9\RecipeBook_ch11\RecipeBook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RecipeBook_ch11.iml" filepath="$PROJECT_DIR$/RecipeBook_ch11.iml" />
+      <module fileurl="file://C:\Users\Haden McAfee\AndroidStudioProjects\RecipeBook\RecipeBook_ch11.iml" filepath="C:\Users\Haden McAfee\AndroidStudioProjects\RecipeBook\RecipeBook_ch11.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
