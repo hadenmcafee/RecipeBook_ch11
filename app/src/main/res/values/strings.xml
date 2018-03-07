@@ -4,4 +4,10 @@
     <string name="recipe_title_label">Title</string>
     <string name="recipe_details_label">Details</string>
     <string name="recipe_solved_label">Complete</string>
+
+    <string name="ing_jedna">This should be ing1</string>
+    <string name="ing_dva">This should be ing2</string>
+    <string name="ing_tri">This should be ing3</string>
+    <string name="ing_ctyri">This should be ing4</string>
+    <string name="ing_pet">This should be ing5</string>
 </resources>
