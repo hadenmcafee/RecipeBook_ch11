@@ -19,6 +19,7 @@ public class RecipeBook {
         return sRecipeBook;
     }
 
+    //List out every possible recipe
     private RecipeBook(Context context) {
         mRecipes = new ArrayList<>();
         String [] Recipe = {"Lasagna", "Chicken Pot Pie", "Pot Roast", "Yellow Cake", "Peach Cobbler"};
