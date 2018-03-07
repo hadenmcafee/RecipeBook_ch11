@@ -66,11 +66,16 @@
             android:textColor="@android:color/black"
             tools:text="Apple" />
 
+        <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="#ffa500"
-            android:text="CheckBox" />
+             />
 
 
     </LinearLayout>
@@ -90,11 +95,15 @@
         android:text="Banana"
         android:textColor="@android:color/black" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="#ffa500"
-            android:text="CheckBox" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffa500" />
 
     </LinearLayout>
 
@@ -112,11 +121,15 @@
         android:text="Watermelon"
         android:textColor="@android:color/black" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="#ffa500"
-            android:text="CheckBox" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffa500" />
 
     </LinearLayout>
 
@@ -134,11 +147,15 @@
         android:text="Pineapple"
         android:textColor="@android:color/black" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="#ffa500"
-            android:text="CheckBox" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffa500" />
 
     </LinearLayout>
 
@@ -156,13 +173,17 @@
             android:text="Pineapple"
             android:textColor="@android:color/black" />
 
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:buttonTint="#ffa500"
-            android:gravity="right"
-            android:text="CheckBox" />
+            android:gravity="right" />
 
     </LinearLayout>
 
