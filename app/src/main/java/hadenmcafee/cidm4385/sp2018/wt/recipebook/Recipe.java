@@ -19,7 +19,7 @@ public class Recipe {
         mId = UUID.randomUUID();
         mDate = new Date();
     }
-// 
+//
     public UUID getId() {
         return mId;
     }
