@@ -12,6 +12,7 @@ public class Recipe {
     private String mIng3;
     private String mIng4;
     private String mIng5;
+    private String mProcess;
     private Date mDate;
     private boolean mSolved;
 
@@ -74,6 +75,16 @@ public class Recipe {
     public void setIng5(String ing5){
         mIng5 = ing5.toString();
     }
+
+    //How to
+    public String getProcess(){
+        return mProcess;
+    }
+
+    public void setProcess(String process){
+        mProcess = process.toString();
+    }
+
 
     public Date getDate() {
         return mDate;

@@ -45,6 +45,7 @@ public class RecipeFragment extends Fragment {
     private TextView mIng3;
     private TextView mIng4;
     private TextView mIng5;
+    private TextView mProcess;
     private Button mDateButton;
     private CheckBox mSolvedCheckbox;
 
@@ -87,6 +88,9 @@ public class RecipeFragment extends Fragment {
 
         mIng5 = (TextView) v.findViewById(R.id.ing_pet);
         mIng5.setText(mRecipe.getIng5());
+
+        mProcess = (TextView) v.findViewById(R.id.p_rocess);
+        mProcess.setText(mRecipe.getProcess());
 
 
 

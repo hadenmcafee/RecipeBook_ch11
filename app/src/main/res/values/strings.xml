@@ -10,4 +10,6 @@
     <string name="ing_tri">This should be ing3</string>
     <string name="ing_ctyri">This should be ing4</string>
     <string name="ing_pet">This should be ing5</string>
+
+    <string name="p_rocess">Zde bude postup na vareni</string>
 </resources>
