@@ -40,6 +40,12 @@ public class RecipeFragment extends Fragment {
     private List<Recipe> mIngredient;
     private Recipe mRecipe;
     private EditText mTitleField;
+    private TextView mIng1;
+    private TextView mIng2;
+    private TextView mIng3;
+    private TextView mIng4;
+    private TextView mIng5;
+    private TextView mProcess;
     private Button mDateButton;
     private CheckBox mSolvedCheckbox;
 
@@ -67,6 +73,27 @@ public class RecipeFragment extends Fragment {
 
         mTitleField = (EditText) v.findViewById(R.id.recipe_title);
         mTitleField.setText(mRecipe.getTitle());
+
+        mIng1 = (TextView) v.findViewById(R.id.ing_jedna);
+        mIng1.setText(mRecipe.getIng1());
+
+        mIng2 = (TextView) v.findViewById(R.id.ing_dva);
+        mIng2.setText(mRecipe.getIng2());
+
+        mIng3 = (TextView) v.findViewById(R.id.ing_tri);
+        mIng3.setText(mRecipe.getIng3());
+
+        mIng4 = (TextView) v.findViewById(R.id.ing_ctyri);
+        mIng4.setText(mRecipe.getIng4());
+
+        mIng5 = (TextView) v.findViewById(R.id.ing_pet);
+        mIng5.setText(mRecipe.getIng5());
+
+        mProcess = (TextView) v.findViewById(R.id.p_rocess);
+        mProcess.setText(mRecipe.getProcess());
+
+
+
         mTitleField.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -84,13 +111,6 @@ public class RecipeFragment extends Fragment {
             }
         });
 
-
-
-
-        mDateButton = (Button) v.findViewById(R.id.recipe_date);
-        mDateButton.setText(mRecipe.getDate().toString());
-        mDateButton.setEnabled(false);
-
         mSolvedCheckbox = (CheckBox) v.findViewById(R.id.recipe_completed);
         mSolvedCheckbox.setChecked(mRecipe.isSolved());
         mSolvedCheckbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -104,4 +124,3 @@ public class RecipeFragment extends Fragment {
         return v;
     }
 }
-
