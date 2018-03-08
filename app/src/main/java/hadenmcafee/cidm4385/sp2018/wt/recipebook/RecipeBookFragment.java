@@ -55,23 +55,19 @@ public class RecipeBookFragment extends Fragment {
         private Recipe mRecipe;
 
         private TextView mTitleTextView;
-        private TextView mDateTextView;
-        private ImageView mSolvedImageView;
+
 
         public RecipeHolder(LayoutInflater inflater, ViewGroup parent) {
             super(inflater.inflate(R.layout.list_item_recipe, parent, false));
             itemView.setOnClickListener(this);
-
             mTitleTextView = (TextView) itemView.findViewById(R.id.recipe_title);
-            mDateTextView = (TextView) itemView.findViewById(R.id.recipe_date);
-            mSolvedImageView = (ImageView) itemView.findViewById(R.id.recipe_completed);
+
         }
 
         public void bind(Recipe recipe) {
             mRecipe = recipe;
             mTitleTextView.setText(mRecipe.getTitle());
-            mDateTextView.setText(mRecipe.getDate().toString());
-            mSolvedImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+
         }
 
         @Override
