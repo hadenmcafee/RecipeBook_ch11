@@ -82,40 +82,42 @@ public class RecipeBookFragment extends Fragment {
             mTitleTextView.setText(mRecipe.getTitle());
             mDateTextView.setText(mRecipe.getDate().toString());
 
-            if (mTitleTextView.getText() == "Lasagna") {
-                mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-            }
+           // do  {
+                if (mTitleTextView.getText() == "Lasagna") {
+                    mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                }
 
-            if (mTitleTextView.getText() == "Chicken Pot Pie") {
-                mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-            }
+                if (mTitleTextView.getText() == "Chicken Pot Pie") {
+                    mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                }
 
-            if (mTitleTextView.getText() == "Pot Roast") {
-                mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-            }
+                if (mTitleTextView.getText() == "Pot Roast") {
+                    mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                }
 
-            if (mTitleTextView.getText() == "Yellow Cake") {
-                mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-            }
+                if (mTitleTextView.getText() == "Yellow Cake") {
+                    mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPeachImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                }
 
-            if (mTitleTextView.getText() == "Peach Cobbler") {
-                mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-                mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
-            }
+                if (mTitleTextView.getText() == "Peach Cobbler") {
+                    mChickenImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mPotRoastImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mYellowImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                    mLasagnaImageView.setVisibility(recipe.isSolved() ? View.VISIBLE : View.GONE);
+                }
+           // } while (1 == 1);
 
         }
 
